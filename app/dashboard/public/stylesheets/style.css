@@ -289,3 +289,18 @@ ul.nav-tabs li span {
 #check_24h + a.btn {
   margin-left: 10px;
 }
+
+.navbar {
+    position: relative;
+    min-height: auto;
+    margin-bottom: 20px;
+    border: 0; 
+    }
+
+.navbar .nav.pull-right {
+    margin-top: 10px;
+}
+
+.green {
+    color: #93c54b;
+}
