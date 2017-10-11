@@ -28,8 +28,7 @@
     <div class="container">
       <div class="navbar navbar-inverse">
         <div class="navbar-inner">
-          <div class="container">
-            <a class="brand" href="<%= route %>/events">Uptime</a>
+            <a class="brand" href="<%= route %>/events"><img style="width:90px;" src="images/uptime-logo.png"></a>
             <ul class="nav pull-left">
               <li><a href="<%= route %>/events">Events</a></li>
               <li><a href="<%= route %>/checks">Checks</a></li>
@@ -40,7 +39,6 @@
               <li id="all_up" style="display:none;"><span class="label label-success">Up</span><strong class="green">0</strong></li>
               <li id="all_down" style="display: none;"><span class="label label-important">Down</span><strong class="red">0</strong></li>
             </ul>
-          </div>
         </div>
       </div>
       <section>
@@ -48,7 +46,7 @@
       </section>
       <footer class="footer">
       </footer>
-    </div>
+    <!--</div> -->
     <script>
     var nbNewEvents = 0;
     var loadedAt = new Date();
