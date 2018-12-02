@@ -8,8 +8,6 @@ A remote monitoring application using Node.js, MongoDB, and Twitter Bootstrap.
 
 You can watch a [demo screencast on Vimeo](https://vimeo.com/39302164).
 
-**Warning**: This application isn't actively maintained anymore. You can find many alternatives, from completely free to very cheap, in [this list of website monitoring services](http://www.supermonitoring.com/blog/the-updated-list-of-website-monitoring-services/).
-
 Features
 --------
 
@@ -468,12 +466,3 @@ Uptime uses third-party libraries:
 * [TwitterBootstrap](http://twitter.github.com/bootstrap/), licensed under the [Apache License v2.0](http://www.apache.org/licenses/LICENSE-2.0),
 * [Flotr2](http://www.humblesoftware.com/flotr2/), licensed under the [MIT License](https://github.com/HumbleSoftware/Flotr2/blob/master/LICENSE).
 * [Favicon](http://www.alexpeattie.com/projects/justvector_icons/), distributed under the [Free Art License](http://artlibre.org/licence/lal/en).
-
-If you like the software, please help improving it by contributing PRs on the [GitHub project](https://github.com/fzaninotto/uptime)!
-
-TODO
-----
-
-* Account for scheduled maintenance (and provide two QoS calculations: with and without scheduled maintenance)
-* Allow for JavaScript execution in the monitored resources by using a headless browser (probably zombie.js)
-* Unit tests
